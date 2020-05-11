@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="b955007ede7644d184950c3f6ab4daf4" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="ae3c0c05110241f1a3ee305c6d1f275f" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b955007ede7644d184950c3f6ab4daf4 = echarts.init(
-            document.getElementById('b955007ede7644d184950c3f6ab4daf4'), 'white', {renderer: 'canvas'});
-        var option_b955007ede7644d184950c3f6ab4daf4 = {
+        var chart_ae3c0c05110241f1a3ee305c6d1f275f = echarts.init(
+            document.getElementById('ae3c0c05110241f1a3ee305c6d1f275f'), 'white', {renderer: 'canvas'});
+        var option_ae3c0c05110241f1a3ee305c6d1f275f = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -49,14 +49,34 @@
     "series": [
         {
             "type": "bar",
-            "name": "\u679c\u5b50\u72f8",
+            "name": "\u5546\u5bb6A",
             "data": [
-                5,
-                20,
-                36,
-                10,
-                75,
-                90
+                114,
+                55,
+                27,
+                101,
+                125,
+                27,
+                105
+            ],
+            "barCategoryGap": "20%",
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        },
+        {
+            "type": "bar",
+            "name": "\u5546\u5bb6B",
+            "data": [
+                57,
+                134,
+                137,
+                129,
+                145,
+                60,
+                49
             ],
             "barCategoryGap": "20%",
             "label": {
@@ -69,11 +89,18 @@
     "legend": [
         {
             "data": [
-                "\u679c\u5b50\u72f8"
+                "\u5546\u5bb6A",
+                "\u5546\u5bb6B"
             ],
             "selected": {
-                "\u679c\u5b50\u72f8": true
-            }
+                "\u5546\u5bb6A": true,
+                "\u5546\u5bb6B": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
         }
     ],
     "tooltip": {
@@ -110,12 +137,13 @@
                 }
             },
             "data": [
-                "\u860b\u679c",
-                "\u9cf3\u68a8",
-                "\u6a58\u5b50",
-                "\u897f\u74dc",
-                "\u8292\u679c",
-                "\u68d7\u5b50"
+                "\u886c\u886b",
+                "\u6bdb\u8863",
+                "\u9886\u5e26",
+                "\u88e4\u5b50",
+                "\u98ce\u8863",
+                "\u9ad8\u8ddf\u978b",
+                "\u889c\u5b50"
             ]
         }
     ],
@@ -141,9 +169,16 @@
                 }
             }
         }
+    ],
+    "title": [
+        {
+            "text": "\u67d0\u5546\u573a\u9500\u552e\u60c5\u51b5",
+            "padding": 5,
+            "itemGap": 10
+        }
     ]
 };
-        chart_b955007ede7644d184950c3f6ab4daf4.setOption(option_b955007ede7644d184950c3f6ab4daf4);
+        chart_ae3c0c05110241f1a3ee305c6d1f275f.setOption(option_ae3c0c05110241f1a3ee305c6d1f275f);
     </script>
 </body>
 </html>
