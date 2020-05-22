@@ -4,7 +4,7 @@ while True:
 	s = input().strip()
 	if s == '0':
 		break
-    
+
 	s = s.upper()
 	ans = 0
 	for c in s:
@@ -13,5 +13,3 @@ while True:
 			break
 
 		ans += ta.find(c)+1
-	else:
-		print(ans)
