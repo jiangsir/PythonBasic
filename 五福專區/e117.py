@@ -7,3 +7,6 @@ if ls1 > ls2:
 else:
     print(ls2)
     
+
+#新題 e802, e945, e058
+#舊題 c580, a043, d002
