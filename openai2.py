@@ -1,7 +1,7 @@
-import openai
+import openai, ignore
 
 # 使用 API 密鑰設定 OpenAI API client
-openai.api_key = "sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+openai.api_key = ignore.openai_apikey
 
 # 設定 GPT-3 模型，並指定使用的模型版本
 model_engine = "text-davinci-003"
