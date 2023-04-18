@@ -1,7 +1,8 @@
 import os
 import openai
+import ignore
 
-openai.api_key = "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"
+openai.api_key = ignore.openai_apikey
 
 while True:
     ask = input("問題[Q:結束]:")
@@ -19,3 +20,5 @@ while True:
     )
 
     print(response["choices"][0]["text"].strip())
+    
+    
